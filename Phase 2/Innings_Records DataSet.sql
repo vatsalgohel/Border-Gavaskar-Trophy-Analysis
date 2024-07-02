@@ -1,0 +1,11 @@
+/****** Script for SelectTopNRows command from SSMS  ******/
+SELECT TOP (1000) [Test Series Year]
+      ,[Test Number]
+      ,[Innings]
+      ,[Highest Scorer]
+      ,[Runs by highest scorer]
+      ,[best bowler]
+      ,[wickets by best bowler]
+      ,[Runs per Innings]
+      ,[Wickets Fallen]
+  FROM [Project_BGT].[Project_BGT].[Innings_Records]
